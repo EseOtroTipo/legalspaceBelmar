@@ -6,6 +6,12 @@ function App() {
   return (
     <div className="App">
       <NarBar/>
+
+      {/* <h1 className="text-3xl font-bold underline">
+      Hello world!
+    </h1>*/}
+      
+      
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
