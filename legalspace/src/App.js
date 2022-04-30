@@ -1,13 +1,15 @@
 import './App.css';
 import NarBar from './components/NavBar';
-import Header from './components/Header';
+//import Header from './components/Header';
 import ItemListContainer from './components/ItemListContainer';
+import ItemCount from './components/ItemCount';
 
 function App() {
   return (
     <div className="App">
       <NarBar/>
-      <Header/>
+     {/*  <Header/> */}
+     <ItemCount stock="10" />
       <ItemListContainer/>
 
 
