@@ -19,7 +19,7 @@ const ItemListContainer = () => {
             }else{
                 rej('Rechazada!')
             }
-        }, 5000)
+        }, 2000)
       })
       promesa
         .then((result)=>{
